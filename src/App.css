@@ -1,0 +1,96 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {s
+    transform: rotate(360deg);
+  }
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+.active {
+    color: #d32f2f !important;
+  }
+
+.nav-links li a:hover {
+  color: #007bff;
+}
+
+ 
+/*  
+ <div class="flex justify-between items-center bg-white shadow-md px-10 py-4">
+  <div class="logo">
+    <img class="w-20" src="logo.png" alt="Logo">
+  </div>
+  <ul class="flex justify-end items-center">
+    <li>
+      <a href="#" class="text-gray-700 font-medium hover:text-blue-500">Home</a>
+    </li>
+    <li>
+      <a href="#" class="text-gray-700 font-medium hover:text-blue-500">Signup</a>
+    </li>
+    <li>
+      <a href="#" class="text-gray-700 font-medium hover:text-blue-500 active:text-red-500">Login</a>
+    </li>
+  </ul>
+</div> */
+
